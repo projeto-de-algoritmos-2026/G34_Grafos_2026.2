@@ -24,7 +24,7 @@ Projeto desenvolvido para aplicar o algoritmo de Dijkstra na busca pelas menores
 ![aplicacao](aplicacao.png)
 
 ## Video 
-
+https://youtu.be/_UTHp49Zj1Y
 
 ## Instalação 
 Linguagem: Python<br>
