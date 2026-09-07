@@ -40,11 +40,11 @@ def rodar_benchmark(tamanhos):
 
 def plotar(tamanhos, naive, heap, caminho_saida):
     plt.figure(figsize=(8, 5.5))
-    plt.plot(tamanhos, naive, "o-", label="Versão ingênua O(n²)", color="#d62728")
+    plt.plot(tamanhos, naive, "o-", label="Versão com busca linear O(n²)", color="#d62728")
     plt.plot(tamanhos, heap, "o-", label="Versão com heap O((n+m) log n)", color="#1f77b4")
     plt.xlabel("Número de cruzamentos (n)")
     plt.ylabel("Tempo de execução (ms)")
-    plt.title("Dijkstra: ingênuo vs. heap binário")
+    plt.title("Dijkstra: busca linear vs. heap binário")
     plt.legend()
     plt.grid(alpha=0.3)
     plt.tight_layout()
